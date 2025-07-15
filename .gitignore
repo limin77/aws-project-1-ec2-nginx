@@ -1,6 +1,26 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore crash logs
+crash.log
+
+# Ignore override files (local only)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore Terraform plugin directory
 .terraform/
-terraform.tfstate
-terraform.tfstate.backup
-.terraform/
-.terraform/
-.terraform/
+
+# Ignore Terraform CLI config files
+.terraformrc
+terraform.rc
+
+# Ignore editor config files (optional)
+.vscode/
+.idea/
+*.swp
+*.swo
+
